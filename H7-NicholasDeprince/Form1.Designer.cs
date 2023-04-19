@@ -30,6 +30,7 @@
         {
             this.DeprinceNicholas = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.test3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DeprinceNicholas
@@ -51,11 +52,21 @@
             this.button1.Text = "test nicholas";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // test3
+            // 
+            this.test3.Location = new System.Drawing.Point(488, 392);
+            this.test3.Name = "test3";
+            this.test3.Size = new System.Drawing.Size(75, 23);
+            this.test3.TabIndex = 2;
+            this.test3.Text = "Castle test";
+            this.test3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.test3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.DeprinceNicholas);
             this.Name = "Form1";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Button DeprinceNicholas;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button test3;
     }
 }
 
